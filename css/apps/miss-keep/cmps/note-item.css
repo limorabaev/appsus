@@ -1,0 +1,93 @@
+.note-item {
+    position: relative;
+    width: 100%;
+    padding: 1rem;
+    background-color: #fff;
+    border: 2px solid transparent;
+    border-radius: 0.5rem;
+    -webkit-column-break-inside: avoid; 
+    break-inside: avoid;
+    page-break-inside: avoid;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    margin-bottom: 20px; /* to match column gap of .note-list */
+    transition: all .3s ease-in-out;
+    box-shadow: 0 5px 15px transparent;
+    transform: translateZ(0);
+}
+
+.note-item > article {
+    min-height: 3rem;
+    margin-bottom: 0.8rem;
+}
+
+.note-item .empty-note {
+    margin-top: 0.6rem;
+    font-size: 1.4rem;
+    color: darkgrey;
+}
+
+.note-item .title {
+    font-family: Roboto-Bold;
+    margin-bottom: 0.5rem;
+}
+
+.note-item.marked {
+    border: 2px solid #000;
+}
+
+.note-item:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.note-item .show-on-hover {
+    visibility: hidden;
+}
+
+.note-item:hover .show-on-hover {
+    visibility: visible;
+}
+
+.note-btn-container > *:not(:last-child) {
+    margin-right: 0.5rem;
+}
+
+.note-type-display {
+    background-color: transparent;
+    font-size: 1.3rem;
+    color: grey;
+}
+
+.mark-note-btn {
+    position: absolute;
+    top: -8px;
+    left: -8px;
+}
+
+.pin-note-btn {
+    float: right;
+}
+
+.pin-note-btn, .note-btn-container > * {
+    color: grey;
+}
+
+.pin-note-btn:hover, .note-btn-container > *:hover {
+    color: black;
+}
+
+.note-item.pinned .pin-note-btn {
+    color: #000;
+}
+
+.note-item.pinned .pin-note-btn:hover {
+    color: grey;
+}
+
+.edit-note-btn.edit {
+    color: #000;
+}
+
+.edit-note-btn.edit:hover {
+    color: grey;
+}

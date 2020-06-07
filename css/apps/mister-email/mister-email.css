@@ -1,0 +1,22 @@
+
+
+.nav-container{
+    margin:15px;
+}
+
+
+.nav-container ul li a:hover{
+    cursor: pointer;
+
+}
+
+@media(max-width:890px){
+    .compose span{
+        display:none;
+    }
+}
+
+
+@media(max-width:613px){
+    
+}

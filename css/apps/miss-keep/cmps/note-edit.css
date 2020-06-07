@@ -1,0 +1,26 @@
+.note-edit {
+    margin-top: 0.8rem;
+}
+
+.note-edit input {
+    width: 100%;
+    border: 1px solid darkgrey;
+    background-color: inherit;
+    background-color: rgba(169, 169, 169, 0.2);
+    padding: 0.25em;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.note-edit .edit-btn-container {
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.note-edit .update-btn:hover {
+    color: green;
+
+}
+.note-edit .cancel-btn:hover {
+    color: red;
+}

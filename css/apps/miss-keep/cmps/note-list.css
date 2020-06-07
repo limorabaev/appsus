@@ -1,0 +1,12 @@
+.note-list {
+    padding-bottom: 1.5rem;
+    column-count: 7;
+    column-gap: 20px; /* to match margin-bootom of .note-item */
+}
+
+.list-lable {
+    font-size: 0.8rem;
+    font-family: Roboto-Bold;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}

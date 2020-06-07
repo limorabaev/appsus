@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Cuprum-Bold;
+    src: url(../fonts/Cuprum/Cuprum-Bold.ttf);
+}
+
+@font-face {
+    font-family: Cuprum;
+    src: url(../fonts/Cuprum/Cuprum-Regular.ttf);
+}

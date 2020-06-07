@@ -1,0 +1,32 @@
+.email-details{
+    font-family: Roboto;
+    margin: 15px;
+    width: 80%;
+
+}
+
+.email-details >*{
+    margin-bottom: 20px;
+}
+
+.small-info{
+    padding: 5px;
+    border-bottom: 1px solid #e2dada;
+}
+
+
+
+
+.mail-body{
+    flex-grow: 1;
+    padding: 10px;
+
+}
+
+.email-details .control{
+   color: #737070;   
+   margin-right: 10px;
+ 
+}
+
+

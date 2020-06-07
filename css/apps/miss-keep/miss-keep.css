@@ -1,0 +1,18 @@
+.miss-keep-container {
+    /* background-image: url(../../../img/cork-texture.jpg);
+    background-repeat: repeat; */
+    min-height: 100vh;
+    background-color: #e8d8d0;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.miss-keep-container button {
+    background-color: transparent;
+    font-size: 1.3rem;
+}
+
+.miss-keep-container .notes-container {
+    width: 1870px; /* 250px per column with 20px gap */
+    margin: 0 auto;
+}

@@ -1,0 +1,4 @@
+.note-todos .checked {
+    text-decoration: line-through;
+    color: grey;
+}

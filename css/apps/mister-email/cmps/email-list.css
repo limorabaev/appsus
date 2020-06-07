@@ -1,0 +1,78 @@
+.mister-email >*{
+    font-family: 'Roboto'
+}
+
+.email-list {
+    margin: 15px;
+    font-size: 0.875rem;
+    width: 80%;
+}
+
+.email-list li{
+    background-color: #f5f5f5;
+    /* border-top: 1px solid #b1b1b1; */
+    border-bottom: 1px solid #b1b1b1
+}
+
+.email-list ul li:first-child {
+    border-top: 1px solid #b1b1b1
+}
+
+
+.email-preview:hover {
+    cursor: pointer;
+
+}
+
+.preview-header:hover{
+    box-shadow: 2px 5px 4px -1px rgba(125,125,125,1);
+
+
+
+}
+
+.email-preview section {
+    padding: 20px
+}
+
+.email-preview.unread .name, .email-preview.unread .subject{
+    font-family: Roboto-Bold;
+}
+
+.unread{
+    background-color: white;
+
+}
+
+.expended{
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+}
+
+.expended p {
+    margin-top: 3em;
+
+}
+
+.expended button{
+    color: initial;
+    font-size: 1.3em;
+    margin-left: 8px;
+    color: #464646;
+}
+
+
+
+@media(max-width:890px){
+.preview-header{
+    flex-direction: column;
+    }
+
+    .preview-header small{
+        order: -1;
+    }    
+
+    .preview-header .name{
+        margin-bottom: 5px;
+    }
+}
